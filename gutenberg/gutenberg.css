@@ -1,0 +1,39 @@
+/* .caption {
+    font-size: larger;
+} */
+
+* {
+    background-color: tan !important;
+}  
+
+p {
+    font-family: fantasy;
+    color: rgb(45, 45, 45);
+    padding: 0.25em;
+}
+
+pre::first-letter {
+    font-size: 22pt !important;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 pre {
+    font-family: cursive;
+}
+
+img {
+    border: 2em;
+    border-color: #5f3939;
+    border-style: groove;
+}
+.mynote {
+    border-style: solid !important;
+    border: black !important;
+}
+
+pre {
+    font-family: cursive !important;
+}

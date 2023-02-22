@@ -1,0 +1,155 @@
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Nav Menu */
+
+.navmenu {
+    border-bottom: 3pt solid #9cb8ff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navmenu ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #757575;
+    align-items: center;
+    /* padding-left: 2em; this is adding padding to the right which makes shit look wack */
+}
+
+.navmenu li {
+    float: left;
+    text-align: center;
+}
+
+.navmenu li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navmenu li:hover {
+    background-color: grey;
+    
+}
+
+.navmenu a:hover {
+    color: #9cb8ff!important;
+}
+
+/* ABOUT ME */
+
+.img {
+    object-fit:contain;
+    overflow: clip;
+    float: left;
+    padding: 0.5em;
+    height: 10em;
+    width: 10em;
+    z-index: 1;
+}
+
+.content {
+    padding: 4em 3em;
+    padding-top: 1em;
+    border: 0em;
+    margin: 0em;
+    padding-right: 0;
+    line-height: 2;
+}
+
+.content > div:nth-child(2n) .img {
+    float: right;
+}
+
+.content > div { /* this stops different sections from overlapping */
+    object-fit: contain;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.header > h1 {
+    padding:5em;
+    margin: 0;
+    border:0;
+}
+
+.head {
+    max-height: 28em;
+}
+
+.header.flex {
+    background-color: #9cb8ff;
+    background-image: url("images/senior-man-eating-cereal-21044146.jpg");
+}
+
+.head .sidemenu {
+    position: relative;
+}
+
+h2 {
+    padding: 0.2em;
+    text-align: left;
+}
+
+.sidebar {
+    padding: 1.5em;
+    position: relative;
+}
+
+.sidemenu {
+    background-color:#eee;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    border: 1em;
+    margin: 1em;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    height: auto;
+    display: block;
+    width: 16.5em;
+    float: right;
+    z-index: 1;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: .4em;
+}
+
+.sidemenu ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.sidemenu li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #9cb8ff;
+    margin: 0.5em;
+}
+
+.sidemenu li a:hover {
+    background-color: #cbeefa;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
