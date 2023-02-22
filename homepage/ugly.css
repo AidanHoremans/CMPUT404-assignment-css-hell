@@ -1,48 +1,42 @@
 html {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:cursive;
+    background-color: olive;
 }
 
 /* HEADER */
 
-.header > h1 {
+.header > h1 { /* this keeps the header a specific size */
     padding:5em;
     margin: 0;
     border:0;
 }
 
 .header.flex {
-    background-color: #9cb8ff;
+    background-color: pink;
     background-image: url("images/senior-man-eating-cereal-21044146.jpg");
 }
 
 /* Nav Menu */
 
 .navmenu {
-    border-bottom: 3pt solid #9cb8ff;
-    box-shadow: 0 1pt 8pt #00000033;
+    text-align: center;
+    padding: 0;
 }
 
 .navmenu ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #757575;
-    align-items: center;
 }
 
 .navmenu li {
-    float: left;
-    text-align: center;
-    align-items: center;
-}
-
-.navmenu li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
+    display: inline;
+    padding: 1em;
+    background-color: pink;
+    border: orange;
+    border-style: solid;
+    margin-right: 4em;
+    
+    border-width: 0.2em;
+    box-shadow: 0 1pt 15pt yellow;
 }
 
 .navmenu li:hover {
@@ -87,7 +81,6 @@ html {
     overflow: hidden;
     width: auto;
     height: auto;
-    padding-top: 0;
 }
 
 .content h2 {
@@ -101,7 +94,8 @@ html {
 }
 
 .sidemenu {
-    background-color:#eee;
+    transform: skew(5deg);
+    background-color:pink;
     align-items: center;
     text-align: center;
     padding: 1em;
@@ -116,7 +110,7 @@ html {
     float: right;
     z-index: 1;
 
-    box-shadow: 0 1pt 8pt #00000033;
+    box-shadow: 0 1pt 15pt yellow;
     border-radius: .4em;
 }
 
@@ -141,10 +135,10 @@ html {
 
 .sidemenu li a {
     display: block;
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #9cb8ff;
+    background-color: orange;
     margin: 0.5em;
 }
 
@@ -163,6 +157,13 @@ body {
     padding: 0;
     border: 0;
     margin: 0;
+}
+
+.content p {
+    background-image: linear-gradient(to left, violet, lightgreen, yellow, orange, pink);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 #subheader {
