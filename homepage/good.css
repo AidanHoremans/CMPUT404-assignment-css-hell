@@ -2,6 +2,19 @@ html {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*  ALL IMAGES */
+
+.img {
+    object-fit:contain;
+    overflow: clip;
+    float: left;
+    height: 10em;
+    width: auto;
+    margin: 1em;
+    padding: 0;
+    z-index: 1;
+}
+
 /* HEADER */
 
 .header > h1 {
@@ -10,9 +23,8 @@ html {
     border:0;
 }
 
-.header.flex {
-    background-color: #9cb8ff;
-    background-image: url("images/senior-man-eating-cereal-21044146.jpg");
+.header {
+    background: linear-gradient(to bottom, #9cb8ff84, #9cb8ff);
 }
 
 /* Nav Menu */
@@ -54,18 +66,6 @@ html {
     color: #9cb8ff!important;
 }
 
-/* IMAGES */
-
-.img {
-    object-fit:contain;
-    overflow: clip;
-    float: left;
-    padding: 0.5em;
-    height: 10em;
-    width: 10em;
-    z-index: 1;
-}
-
 /* BODY CONTENT */
 
 .content {
@@ -79,7 +79,7 @@ html {
 
 .content > div:nth-child(2n) .img {
     float: right;
-    padding-right: 4em;
+    margin-right: 4em;
 }
 
 .content div { /* this stops different sections from overlapping */
@@ -94,6 +94,8 @@ html {
     margin-top: 0.3em;
     padding: 0;
 }
+
+/* SIDEBAR STRUCTURE */
 
 .sidebar {
     padding: 1.5em;
@@ -115,22 +117,6 @@ html {
     width: 16.5em;
     float: right;
     z-index: 1;
-
-    box-shadow: 0 1pt 8pt #00000033;
-    border-radius: .4em;
-}
-
-/* EXPERIENCE SIDEBAR */
-
-#skills ul {
-    margin-inline: 1em;
-}
-
-#skills li {
-    list-style-type: square;
-    text-align: left;
-    align-items: left;
-    padding: 0.25em;
 }
 
 .sidemenu ul {
@@ -152,6 +138,21 @@ html {
     background-color: #cbeefa;
 }
 
+/* EXPERIENCE SIDEBAR */
+
+#skills ul {
+    margin-inline: 1em;
+}
+
+#skills li {
+    list-style-type: square;
+    text-align: left;
+    align-items: left;
+    padding: 0.25em;
+}
+
+/* FLEX BOX */
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -167,4 +168,9 @@ body {
 
 #subheader {
     margin-inline: 5em;
+}
+
+.shadow-box {
+    box-shadow: 0 1pt 8pt #00000033;
+    border-radius: .4em;
 }
