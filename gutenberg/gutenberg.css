@@ -1,7 +1,3 @@
-/* .caption {
-    font-size: larger;
-} */
-
 * {
     background-color: tan !important;
 }  
@@ -36,4 +32,9 @@ img {
 
 pre {
     font-family: cursive !important;
+}
+
+.caption {
+    font-style: italic;
+    font-size: 18pt;
 }

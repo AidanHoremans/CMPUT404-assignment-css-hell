@@ -13,7 +13,11 @@ html {
 
 .header.flex {
     background-color: pink;
-    background-image: url("images/senior-man-eating-cereal-21044146.jpg");
+    background-image: url("images/stretched-header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-size: 100% 100%;
 }
 
 /* Nav Menu */

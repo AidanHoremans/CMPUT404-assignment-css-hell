@@ -22,6 +22,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Changes Made to Gutenburg Files
+===============================
+Added a style link &lt;link rel="stylesheet" href="gutenberg.css"&gt; to the top of each file.
+
+
 References
 ==========
 https://w3bits.com/rainbow-text/
