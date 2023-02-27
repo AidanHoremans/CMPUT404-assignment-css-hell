@@ -29,4 +29,4 @@ Added a style link &lt;link rel="stylesheet" href="gutenberg.css"&gt; to the top
 
 References
 ==========
-https://w3bits.com/rainbow-text/
+https://w3bits.com/rainbow-text/, "Pure CSS Rainbow text with Animation effects". January 21, 2019.
